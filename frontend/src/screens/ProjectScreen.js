@@ -92,6 +92,18 @@ const ProjectsScreen = () => {
             ReactDom,react-pdf,react-redux,
             Redux-thunk,Theme,Redux"
           />{" "}
+<ProjectCard
+            source="https://invoicegenerator1.vercel.app/"
+            git="https://github.com/Ruturajwork"
+            src="invoicegenerator.png"
+            desc="Generate Invoice And Download your Invoice at many currency  "
+            clickDetails="Features"
+            popheading="InvoiceGenerator"
+            description="React,bootstrap,jspdf,
+            react-icons,html2canvas,
+            file-saver,react-bootstrap
+            "
+          />
         </Flex>
       </Flex>
       s
