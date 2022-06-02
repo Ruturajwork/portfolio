@@ -67,7 +67,7 @@ const Footer = () => {
   //         </Box>
   //         <Box marginEnd="4">
   //           <Text fontSize="xl" color="blue.900">
-  //             Copyright@{year} RuturajPortPholio
+  //             Copyright@{year} RuturajPortfolio
   //           </Text>
   //         </Box>
 
