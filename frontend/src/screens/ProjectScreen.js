@@ -104,6 +104,17 @@ const ProjectsScreen = () => {
             file-saver,react-bootstrap
             "
           />
+               <ProjectCard
+            source="https://qrcode-ruturajwork.vercel.app/"
+            git="https://github.com/Ruturajwork/Qrcode"
+            src="qrcode.png"
+            desc="Generate & Scan Qr-Code Its Link to Another QrGenerator   "
+            clickDetails="Features"
+            popheading="QrCodeGenerator"
+            description="React,Material Ui,,
+            react-icons,Qr-Scanner,Javascript
+            "
+          />
         </Flex>
       </Flex>
       s
