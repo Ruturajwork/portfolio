@@ -106,7 +106,7 @@ const Header = () => {
               textDecor: "none",
             }}
           >
-            RUTUPORTFOLIO
+            RUTURAJPORTFOLIO
           </Link>
         </Heading>
       </Flex>
@@ -158,7 +158,7 @@ const Header = () => {
           <Icon as={CgFileDocument} color="pink.700" w="4" h="4" mr="1" />
           Resume
         </MenuItem>
-        <DarkMode />
+   
 
         {/*trying to import icons*/}
         <Flex
@@ -167,6 +167,8 @@ const Header = () => {
           justifyContent="space-evenly"
           direction="row"
         >
+          {" "}
+          <DarkMode />
           <Link href="https://github.com/Ruturajwork">
             <Icon as={BsGithub} w="4" h="4" mx="2" />
           </Link>
