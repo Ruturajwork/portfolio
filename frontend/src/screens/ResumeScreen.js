@@ -52,7 +52,8 @@ function ResumeNew() {
           <Icon as={AiOutlineCloudDownload} w="8" h="8" mx="2" />
         </Flex>
 
-        <Flex display={{ base: show ? "block" : "none", md: "flex" }}>
+        <Flex //display={{ base: show ? "block" : "none", md: "flex" }}
+>
           <Document file={resumeLink}>
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
