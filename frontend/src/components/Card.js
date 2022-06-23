@@ -113,23 +113,46 @@ export const ProjectCard = ({
   );
 };
 
+//export const Card = ({ children, ic }) => {
+ // return (
+ //   <>
+   //   <Flex
+    //   direction="column"
+    //    justifyContent="center"
+     //   alignItems="center"
+  //      boxShadow="xs"
+//        border=""
+ //       borderColor="blue.800"
+//        p="9"
+//        shadow="3px 2px purple"
+//        _hover={{ shadow: "5px 5px 2px 2px blue" }}
+//        rounded="md"
+//        backdropFilter="saturate(180%) blur(10px)"
+//      >
+ //       <Icon as={ic} my="3" w="20" h="20" />
+//        <Heading my="3" as="h3" fontSize="3xl">
+ //         {children}
+//        </Heading>
+//      </Flex>
+ //   </>
+ // );
+//};
+
 export const Card = ({ children, ic }) => {
   return (
     <>
       <Flex
-        direction="column"
-        justifyContent="center"
-        alignItems="center"
-        boxShadow="xs"
-        border=""
-        borderColor="blue.800"
-        p="9"
-        shadow="3px 2px purple"
-        _hover={{ shadow: "5px 5px 2px 2px blue" }}
+        direction="flex"
+        justifyContent="flex"
+        alignItems="flex"
+        border="2px solid red"
+        borderColor="teal.300"
+        p="5"
+        _hover={{ shadow: " 3px 3px 1px  black" }}
         rounded="md"
         backdropFilter="saturate(180%) blur(10px)"
       >
-        <Icon as={ic} my="3" w="20" h="20" />
+        <Icon as={ic} my="4" ml="2" mr="2" w="8" h="8" />
         <Heading my="3" as="h3" fontSize="3xl">
           {children}
         </Heading>
