@@ -18,7 +18,7 @@ import {
   SiBootstrap,
   SiMaterialui,
   SiNetlify,
-  SiExpress,
+  SiExpress,SiVercel,
 } from "react-icons/si";
 
 const FullStack = () => {
@@ -39,6 +39,8 @@ const FullStack = () => {
     { skill: "Chakra UI", ic: SiChakraui },
     { skill: "Bootstrap", ic: SiBootstrap },
     { skill: "Material-ui", ic: SiMaterialui },
+     { skill: "Vercel", ic: SiVercel },
+    
   ];
   return (
     <Flex
