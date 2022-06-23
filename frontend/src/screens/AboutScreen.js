@@ -96,7 +96,8 @@ const AboutScreen = () => {
           direction="row"
           justifyContent="center"
           wrap="wrap"
-          gap="20"
+          gap="10"
+
         >
           {skill.map((item) => (
             <Card ic={item.ic}>{item.skill}</Card>
