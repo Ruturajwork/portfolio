@@ -28,7 +28,8 @@ import {
   SiBootstrap,
   SiMaterialui,
   SiNetlify,
-  SiExpress,
+  SiExpress, SiVercel,
+  SiElectron,
 } from "react-icons/si";
 import { Card } from "../components/Card.js";
 import { AiFillGithub } from "react-icons/ai";
@@ -40,20 +41,24 @@ const AboutScreen = () => {
   const skill = [
     { skill: "HTML", ic: DiHtml5 },
     { skill: "CSS", ic: DiCss3 },
-
-    { skill: "JavaScript", ic: DiJavascript1 },
-    { skill: "Node js", ic: DiNodejs },
-    { skill: "React js", ic: DiReact },
-    { skill: "Mongo DB", ic: DiMongodb },
-    { skill: "Redux", ic: SiRedux },
-    { skill: "Express-js", ic: SiExpress },
-
-    { skill: "Heroku", ic: SiHeroku },
-    { skill: "Netlify", ic: SiNetlify },
-
     { skill: "Chakra UI", ic: SiChakraui },
     { skill: "Bootstrap", ic: SiBootstrap },
     { skill: "Material-ui", ic: SiMaterialui },
+
+    { skill: "JavaScript", ic: DiJavascript1 },
+    { skill: "React Js", ic: DiReact },
+
+    { skill: "Node js", ic: DiNodejs },
+    { skill: "Mongo DB", ic: DiMongodb },
+    { skill: "Redux", ic: SiRedux },
+    { skill: "Express-js", ic: SiExpress },
+    { skill: "Electron", ic: SiElectron },
+
+    
+
+    { skill: "Heroku", ic: SiHeroku },
+    { skill: "Netlify", ic: SiNetlify },
+    { skill: "Vercel", ic: SiVercel },
   ];
 
   const tools = [
