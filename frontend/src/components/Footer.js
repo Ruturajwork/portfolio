@@ -114,16 +114,16 @@ const Footer = () => {
       </Box>
       <Box ml="20" mt={{ base: 4, md: 0 }}>
         <Link mt={1} display="block" lineHeight="normal" href="#">
-          <Link href="/">
+          <Link href="https://github.com/Ruturajwork">
             <Icon as={BsGithub} w="4" h="4" mx="2" />
           </Link>
-          <Link href="/">
+          <Link href="https://www.linkedin.com/in/ruturaj-salunkhe-70b923237">
             <Icon as={BsLinkedin} w="4" h="4" mx="2" />
           </Link>
-          <Link href="/">
+          <Link href="https://www.instagram.com/_mr_.salunkhe._/">
             <Icon as={BsInstagram} w="4" h="4" mx="2" />
           </Link>
-          <Link href="/">
+          <Link href="https://twitter.com/RuturajSalunkh6">
             <Icon as={BsTwitter} w="4" h="4" mx="2" />
           </Link>
         </Link>
