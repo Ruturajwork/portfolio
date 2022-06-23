@@ -88,13 +88,13 @@ const Footer = () => {
   // };
 
   /*Trying new*/
-  return (
-    <Box p={4} display={{ md: "flex" }}>
-      <Box flexShrink={0}>
+ return (
+    <Box p="4" display={{ md: "flex" }} justifyContent="center" gap="20">
+      <Box>
         <Text
           fontWeight="bold"
-          textTransform="uppercase"
-          fontSize="xl"
+          //textTransform="uppercase"
+          fontSize="md"
           letterSpacing="wide"
           color="cyan.600"
         >
@@ -104,33 +104,26 @@ const Footer = () => {
       <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
         <Text
           fontWeight="bold"
-          textTransform="uppercase"
-          fontSize="xl"
+          //textTransform="uppercase"
+          fontSize="md"
           letterSpacing="wide"
           color="green.600"
         >
           Copyright@{year} RuturajPortPholio
         </Text>
       </Box>
-      <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
-        <Link
-          mt={1}
-          display="block"
-          fontSize="lg"
-          lineHeight="normal"
-          fontWeight="semibold"
-          href="#"
-        >
-          <Link href="https://github.com/Ruturajwork">
+      <Box ml="20" mt={{ base: 4, md: 0 }}>
+        <Link mt={1} display="block" lineHeight="normal" href="#">
+          <Link href="/">
             <Icon as={BsGithub} w="4" h="4" mx="2" />
           </Link>
-          <Link href="https://www.linkedin.com/in/ruturaj-salunkhe-70b923237">
+          <Link href="/">
             <Icon as={BsLinkedin} w="4" h="4" mx="2" />
           </Link>
-          <Link href="https://www.instagram.com/_mr_.salunkhe._/">
+          <Link href="/">
             <Icon as={BsInstagram} w="4" h="4" mx="2" />
           </Link>
-          <Link href="https://twitter.com/RuturajSalunkh6">
+          <Link href="/">
             <Icon as={BsTwitter} w="4" h="4" mx="2" />
           </Link>
         </Link>
