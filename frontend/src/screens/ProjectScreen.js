@@ -65,7 +65,7 @@ const ProjectsScreen = () => {
         <Flex direction="row" justifyContent="center" wrap="wrap">
           <ProjectCard
             source="https://ruturajstore.herokuapp.com/"
-            git="https://github.com/Ruturajwork"
+            git="https://github.com/Ruturajwork/ecommerce-website"
             src="shopsite.png"
             desc="Full stack E-commerce web application made
             with latest tranding technologies that comes with
