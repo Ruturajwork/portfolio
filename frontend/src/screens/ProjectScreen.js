@@ -115,6 +115,16 @@ const ProjectsScreen = () => {
             react-icons,Qr-Scanner,Javascript
             "
           />
+              <ProjectCard
+            source="https://spotifytask.vercel.app/"
+            git="https://github.com/Ruturajwork/spotify-task"
+            src="spotify.png"
+            desc="Spotify Clone with React JS 
+            and Styled Components using Spotify API and Context API"
+            clickDetails="Features"
+            popheading="Spotify"
+            description="Spotify-API,Context API,React"
+          />
         </Flex>
       </Flex>
     
